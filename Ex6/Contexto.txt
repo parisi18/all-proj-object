@@ -1,0 +1,11 @@
+Nome: Rafael dos Santos Parisi
+RA: 148418
+
+Padrões de Projeto (Factory, Singleton e Proxy)
+
+Factory:
+	Fabrica de Gêneros de livros
+Singleton:
+	Biblioteca contendo a quantidade de livros adicionados.
+Proxy:
+	Inspetor de Livraria, contendo a quantidade de livros da última consulta da base. Ou seja, caso o proxy não conheça a quantidade, consultará a base e atualizará sua referência para consultas futuras do Client.
